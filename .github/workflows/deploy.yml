@@ -2,7 +2,7 @@ name: Deploy Vue Site to Pages
 
 on:
   push:
-    branches: ["master"] # masterへのpushをトリガーにする
+    branches: ["main"] # mainへのpushをトリガーにする
 
   # 手動実行も可能にする設定
   workflow_dispatch:
